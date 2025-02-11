@@ -6,7 +6,7 @@ st.text('Introduction')
 	
 st.write('1. Introduction/Background') 
 st.write('Provide an introduction of your topic and literature review of related work. Briefly explain your dataset and its features, and provide a link to the dataset if possible.')
-st.wrtie('✅Literature Review')
+st.write('✅Literature Review')
 # ✅Literature Review
 # Temporal convolutional autoencoder for unsupervised anomaly detection in time series
 # Development and Online Validation of an Intrinsic Fault Detector for a Powered Robotic Knee Prosthesis
