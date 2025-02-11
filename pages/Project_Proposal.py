@@ -21,7 +21,8 @@ st.write('Torque data (Knee and Ankle)')
 st.subheader('✅Dataset Link (if applicable)')
 st.write('Internal to EPIC Lab')
 
-st.header('Problem Definition: Identify a problem and motivate the need for a solution.')
+st.header('Problem Definition')
+st.text('Identify a problem and motivate the need for a solution.')
 st.subheader('✅Problem')
 st.write('Anomalies in prosthesis torque data can lessen accuracy of deep-learning models training on this information.')
 st.write('Goal: Identify anomalies in powered prosthesis data using an autoencoder.')
@@ -30,7 +31,8 @@ st.subheader('✅Motivation')
 st.write('Anomalies in prosthesis torque data can lessen accuracy of deep-learning models training on this information. The goal is to create a model using an autoencoder to identify these anomalies, which can then be filtered out of the original data set. Eliminating this bad data will improve the accuracy of the original deep-learning model.') 
 
 
-st.header('Methods: Present proposed solutions including specific data processing methods and machine learning algorithms, and elaborate on why you think each will be effective. It is recommended to identify specific functions/classes in existing packages and libraries (i.e. scikit-learn) rather than coding the algorithms from scratch.')
+st.header('Methods')
+st.text('Present proposed solutions including specific data processing methods and machine learning algorithms, and elaborate on why you think each will be effective. It is recommended to identify specific functions/classes in existing packages and libraries (i.e. scikit-learn) rather than coding the algorithms from scratch.')
 st.subheader('✅3+ Data Preprocessing Methods Identified')
 st.write('Cropping stance and swing phases')
 st.write('Sensors from the 28 channels may not be in the exact same time frame/collection frequency so may need to interpolate the sensor data')
@@ -57,24 +59,29 @@ st.write('- this structure of big to small to big layers')
 st.write('- autoencoder unsupervised')
 
 
-st.header('Potential Results and Discussion: Identify several quantitative metrics you plan to use for the project (i.e. ML Metrics). Present goals in terms of these metrics, and state any expected results.')
+st.header('Potential Results and Discussion')
+st.text('Identify several quantitative metrics you plan to use for the project (i.e. ML Metrics). Present goals in terms of these metrics, and state any expected results.')
 st.subheader('✅3+ Quantitative Metrics')
 st.write('- RMSE')
 st.write('- R2')
 st.write('- Dynamic Time Warping')
 st.write('- Inference Time')
+
 st.subheader('✅Project Goals (recommended to include sustainability and ethical considerations)')
 st.write('Identify anomalies in powered prosthesis data using an autoencoder.')
 st.write('Improve accuracy of TCN Deep-Learning Model in predicting torque')
 st.write('Improve overall gait in transfemoral amputees wearing powered prosthesis')
+
 st.subheader('✅Expected Results')
 st.write('TCN with Autoencoder will perform the best, due to feeding in better filtered data')
 st.write('Baseline TCN model will successfully assess the effectiveness of the anomaly filter using Autoencoder')
 st.write('CNN + Autoencoder will have a slower inference time and worse performance than baseline TCN model')
 
 
-st.header('References: Cite relevant papers and articles utilizing the IEEE format. All references in this section must have a matching in-text citation in the body of your proposal text.')
+st.header('References')
+st.text('Cite relevant papers and articles utilizing the IEEE format. All references in this section must have a matching in-text citation in the body of your proposal text.')
 st.subheader('✅3+ References (preferably peer reviewed)')
+
 st.subheader('✅1+ In-Text Citation Per Reference')
 st.write('Seamless and intuitive control of a powered prosthetic leg using deep neural network for transfemoral amputees')
 st.write('Read auto encoder part')
