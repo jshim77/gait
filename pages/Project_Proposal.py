@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 #st.text('Introduction')
-st.title('Project Proposal: GAIT')
+st.title('GAIT Project Proposal')
 # st.header('My header')
 # st.subheader('My sub')
 	
